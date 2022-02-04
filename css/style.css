@@ -57,7 +57,7 @@ a:hover {
   color: rgba(239, 200, 200, 1);
 }
 
-.column, .columns {
+.box, .columns {
   /* background-color: rgba(255, 250, 250, 1); */
   background-color: white;
   padding: 16px;
