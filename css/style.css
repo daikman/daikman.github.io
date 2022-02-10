@@ -18,18 +18,18 @@ body {
   margin-top: 8px;
 }
 
-.top h3 {
+.top h2 {
   color: rgba(240, 185, 185, 1);
 }
 
 .top p {
   font-size: 1.1em;
-  color: grey;
 }
 
 p {
   margin-left: 8px;
   margin-right: 8px;
+  color: grey;
 }
 
 ::selection {
