@@ -1,0 +1,18 @@
+#root {
+    padding: 10%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(42, 42, 42)
+}
+
+::selection {
+  background: rgba(240, 185, 185, 1); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(240, 185, 185, 1); /* Gecko Browsers */
+}
+
+h1 {
+  color: rgba(240, 185, 185, 1);
+}

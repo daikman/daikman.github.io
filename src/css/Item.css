@@ -1,0 +1,53 @@
+.item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item a:hover {
+    color: rgba(240, 185, 185, 1)
+}
+
+.item p {
+    margin-left: 16px;
+}
+
+.item {
+    position: relative;
+    background-color: white;
+    background-color: rgba(255, 245, 245, 0.85);
+    overflow: hidden;
+    padding: 1%;
+    height: 200px;
+    margin-bottom: 32px;
+}
+
+.item:hover {
+    background-color: white;
+}
+
+.item img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.m-warning {
+    color: rgb(175, 1, 1);
+    font-weight: bold;
+    font-size: smaller;
+}
+
+@media (min-width: 600px) {
+    .m-warning{
+        display: none;
+    }
+}
+
+.links p {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 1%;
+}

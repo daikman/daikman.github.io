@@ -1,0 +1,69 @@
+{
+    "info": {
+        "title": "Some things I've made",
+        "intro": "I'm David Aikman,",
+        "summary": "and I like to make stuff for the web in my free time (and sometimes for work). This is a portfolio of my favourite things I've made.",
+        "links": {
+            "github": "daikman",
+            "twitter": "researchingdave"
+        }
+    },
+    "items": [
+        {
+            "name": "Quest Journal",
+            "desc": "This is a task manager app in the style of a video game quest menu. It uses a REST API Node.js server I made.",
+            "img": "quest-journal.PNG",
+            "demo": "https://daikman.github.io/quest-journal/",
+            "code": "https://github.com/daikman/quest-journal",
+            "mobile": true
+        },
+        {
+            "name": "D3 Research Report",
+            "desc": "Some research I did for my old job. I made an HTML report with interactive charts.",
+            "img": "leader-report.PNG",
+            "demo": "https://daikman.github.io/leadership_report/",
+            "code": "https://github.com/daikman/leadership_report",
+            "mobile": false
+        },
+        {
+            "name": "This website",
+            "desc": "Do you like it? I made it with React.js and Skeleton CSS.",
+            "img": "favicon.png",
+            "demo": "https://daikman.github.io/",
+            "code": "https://github.com/daikman/daikman.github.io",
+            "mobile": true
+        },
+        {
+            "name": "Game WIP",
+            "desc": "A game engine I'm developing to make point and click adventure games.",
+            "img": "game.PNG",
+            "demo": "https://daikman.github.io/game-engine/",
+            "code": "https://github.com/daikman/game-engine",
+            "mobile": true
+        },
+        {
+            "name": "Keyboard",
+            "desc": "This is a keyboard you can play with your computer keyboard. It's very simple (so far).",
+            "img": "keyboard.PNG",
+            "demo": "https://daikman.github.io/keyboard/",
+            "code": "https://github.com/daikman/keyboard",
+            "mobile": true
+        },
+        {
+            "name": "Mosaic Morph",
+            "desc": "This is a tool that takes one image and splits it into segments to draw a 'mosaic' of another image.",
+            "img": "mosaic.png",
+            "demo": "https://daikman.github.io/mosaic-morph/",
+            "code": "https://github.com/daikman/mosaic-morph",
+            "mobile": true
+        },
+        {
+            "name": "Text Art",
+            "desc": "This is a tool that takes some text and draws an image with that text.",
+            "img": "text-art.png",
+            "demo": "https://daikman.github.io/text-art/",
+            "code": "https://github.com/daikman/text-art",
+            "mobile": true
+        }
+    ]
+}
