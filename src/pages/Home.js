@@ -9,8 +9,6 @@ export default function Home({ data }) {
     <Header data = {data.info}/>
     <br/>
     <Menu data = {data.menu} />
-    <br/>
-    <Footer />
   </>   
 
 }

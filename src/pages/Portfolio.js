@@ -16,8 +16,6 @@ export default function Portfolio({ data, tag }) {
     <Header data = {info[0]} home = {true}/>
     <br/>
     <ItemList data = {items} />
-    <br/>
-    <Footer />
   </>   
 
 }
