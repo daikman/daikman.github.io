@@ -3,13 +3,12 @@ import "../css/Item.css"
 import MobileWarn from './MobileWarn'
 
 export default function Item({ data }) {
-    let i = <div className='item one-half column'>
-            
+    let i = <>
             <img src={require("../images/"+data.img)} />
             
             <h2>{data.name}</h2>
             <p>{data.desc}</p>
-            <div class="links">
+            <div className="links">
                 <p>
                   <a href={data.demo} target="_blank">
                     live demo 🌐
@@ -20,7 +19,7 @@ export default function Item({ data }) {
                   </a>
                 </p>
             </div>   
-            <MobileWarn warn={data.mobile}/>
-        </div>
+            <MobileWarn warn={data?.mobileWarn}/>
+        </>
     return i
 }

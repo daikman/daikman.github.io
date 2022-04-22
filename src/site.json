@@ -1,0 +1,111 @@
+{
+    "menu": [
+        {
+            "tag": "dev",
+            "img": "favicon.png",
+            "title": "David's webdev porfolio",
+            "intro": "I like to make stuff for the web",
+            "summary": "in my free time (and sometimes for work). This is a portfolio of my favourite things I've made.",
+            "links": {
+                "github": "daikman",
+                "twitter": "researchingdave"
+            }
+        },
+        {
+            "tag": "data",
+            "img": "favicon.png",
+            "title": "David's data porfolio",
+            "intro": "I'm a data scientist",
+            "summary": "and here a few data projects I've worked on in my spare time. (not a complete portfolio)",
+            "links": {
+                "github": "daikman",
+                "twitter": "researchingdave"
+            }
+        },
+        {
+            "tag": "random",
+            "img": "favicon.png",
+            "title": "Fun lil projects",
+            "intro": "I've made a few things",
+            "summary": "that don't really fit in anywhere else.",
+            "links": {
+                "github": "daikman",
+                "twitter": "researchingdave"
+            }
+        }
+    ],
+    "info": {
+        "title": "Some things I've made",
+        "intro": "I'm David Aikman,",
+        "summary": "and I like to make stuff. This is a portfolio of my favourite things I've made.",
+        "links": {
+            "github": "daikman",
+            "twitter": "researchingdave"
+        }
+    },
+    "items": [
+        {
+            "name": "This website",
+            "desc": "Do you like it? I made it with React.js and Skeleton CSS.",
+            "img": "favicon.png",
+            "demo": "https://daikman.github.io/",
+            "code": "https://github.com/daikman/daikman.github.io",
+            "mobileWarn": false,
+            "tags": ["dev"]
+        },
+        {
+            "name": "Quest Journal",
+            "desc": "This is a task manager app in the style of a video game quest menu. Plain js with a Node back-end.",
+            "img": "quest-journal.PNG",
+            "demo": "https://daikman.github.io/quest-journal/",
+            "code": "https://github.com/daikman/quest-journal",
+            "mobileWarn": false,
+            "tags": ["dev"]
+        },
+        {
+            "name": "D3 Research Report",
+            "desc": "Some research I did for my old job. I made an HTML report with interactive charts.",
+            "img": "leader-report.PNG",
+            "demo": "https://daikman.github.io/leadership_report/",
+            "code": "https://github.com/daikman/leadership_report",
+            "mobileWarn": true,
+            "tags": ["dev", "data"]
+        },
+        {
+            "name": "Game WIP",
+            "desc": "A game engine I'm developing to make point and click adventure games.",
+            "img": "game.PNG",
+            "demo": "https://daikman.github.io/game-engine/",
+            "code": "https://github.com/daikman/game-engine",
+            "mobileWarn": false,
+            "tags": ["random", "game-dev"]
+        },
+        {
+            "name": "Keyboard",
+            "desc": "This is a keyboard you can play with your computer keyboard. It's very simple (so far).",
+            "img": "keyboard.PNG",
+            "demo": "https://daikman.github.io/keyboard/",
+            "code": "https://github.com/daikman/keyboard",
+            "mobileWarn": false,
+            "tags": ["random"]
+        },
+        {
+            "name": "Mosaic Morph",
+            "desc": "This is a tool that takes one image and splits it into segments to draw a 'mosaic' of another image.",
+            "img": "mosaic.png",
+            "demo": "https://daikman.github.io/mosaic-morph/",
+            "code": "https://github.com/daikman/mosaic-morph",
+            "mobileWarn": false,
+            "tags": ["random"]
+        },
+        {
+            "name": "Text Art",
+            "desc": "This is a tool that takes some text and draws an image with that text.",
+            "img": "text-art.png",
+            "demo": "https://daikman.github.io/text-art/",
+            "code": "https://github.com/daikman/text-art",
+            "mobileWarn": false,
+            "tags": ["random"]
+        }
+    ]
+}

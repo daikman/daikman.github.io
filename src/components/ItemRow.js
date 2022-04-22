@@ -3,9 +3,9 @@ import Item from './Item'
 
 export default function ItemRow({ data }) {
     const item = data.map(d => {
-        return  <>
+        return  <div className='item one-half column'>
             <Item data = {d}/>
-        </>
+        </div>
     })
     
     return <div className='row'>{item}</div>

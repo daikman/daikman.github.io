@@ -1,8 +1,10 @@
+@import url('http://fonts.googleapis.com/css?family=Lora:400,300,600');
 #root {
     padding: 10%;
     max-width: 1000px;
     margin: auto;
-    font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: sans-serif;
     color: rgb(42, 42, 42)
 }
 
@@ -16,3 +18,20 @@
 h1 {
   color: rgba(240, 185, 185, 1);
 }
+
+.footer {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(240, 185, 185, 1) !important;
+}
+
+p {
+  font-size: larger;
+}
+

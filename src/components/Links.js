@@ -7,7 +7,7 @@ export default function Links({ links }) {
     
     const comp = names.map((d, i) => {
         return <span>{
-            createLink(
+            createIcon(
                 names[i], hrefs[i], 
                 {"width": "32px", "height": "32px", "margin": "5px"}
             )}</span>
@@ -16,6 +16,6 @@ export default function Links({ links }) {
     return comp
 }
 
-function createLink(name, href, style) {
+function createIcon(name, href, style) {
     return <SocialIcon url={"https://" + name + ".com/" + href} network={name} style={style}/>
 }
