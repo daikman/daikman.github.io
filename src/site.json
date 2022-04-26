@@ -52,8 +52,6 @@
                 "live demo 🌐": "https://daikman.github.io/",
                 "code ⌨️": "https://github.com/daikman/daikman.github.io"
             },
-            "demo": "https://daikman.github.io/",
-            "code": "https://github.com/daikman/daikman.github.io",
             "mobileWarn": false,
             "tags": ["dev"]
         },
@@ -65,8 +63,6 @@
                 "live demo 🌐": "https://daikman.github.io/quest-journal/",
                 "code ⌨️": "https://github.com/daikman/quest-journal/"
             },
-            "demo": "https://daikman.github.io/quest-journal/",
-            "code": "https://github.com/daikman/quest-journal",
             "mobileWarn": false,
             "tags": ["dev"]
         },
@@ -78,8 +74,6 @@
                 "live demo 🌐": "https://daikman.github.io/leadership_report/",
                 "code ⌨️": "https://github.com/daikman/leadership_report/"
             },
-            "demo": "https://daikman.github.io/leadership_report/",
-            "code": "https://github.com/daikman/leadership_report",
             "mobileWarn": true,
             "tags": ["dev", "data"]
         },
@@ -90,8 +84,6 @@
             "links": {
                 "code ⌨️": "https://github.com/Public-Health-Scotland/phsopendata"
             },
-            "demo": "",
-            "code": "https://github.com/Public-Health-Scotland/phsopendata",
             "mobileWarn": false,
             "tags": ["data"]
         },
@@ -103,8 +95,6 @@
                 "live demo 🌐": "https://daikman.github.io/game-engine/",
                 "code ⌨️": "https://github.com/daikman/game-engine"
             },
-            "demo": "https://daikman.github.io/game-engine/",
-            "code": "https://github.com/daikman/game-engine",
             "mobileWarn": false,
             "tags": ["random", "game-dev"]
         },
@@ -116,8 +106,6 @@
                 "live demo 🌐": "https://daikman.github.io/keyboard/",
                 "code ⌨️": "https://github.com/daikman/keyboard"
             },
-            "demo": "https://daikman.github.io/keyboard/",
-            "code": "https://github.com/daikman/keyboard",
             "mobileWarn": false,
             "tags": ["random"]
         },
@@ -129,8 +117,6 @@
                 "live demo 🌐": "https://daikman.github.io/mosaic-morph/",
                 "code ⌨️": "https://github.com/daikman/mosaic-morph"
             },
-            "demo": "https://daikman.github.io/mosaic-morph/",
-            "code": "https://github.com/daikman/mosaic-morph",
             "mobileWarn": false,
             "tags": ["random"]
         },
@@ -142,8 +128,6 @@
                 "live demo 🌐": "https://daikman.github.io/text-art/",
                 "code ⌨️": "https://github.com/daikman/text-art"
             },
-            "demo": "https://daikman.github.io/text-art/",
-            "code": "https://github.com/daikman/text-art",
             "mobileWarn": false,
             "tags": ["random"]
         }
