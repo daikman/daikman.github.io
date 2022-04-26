@@ -4,8 +4,7 @@
             "tag": "dev",
             "img": "favicon.png",
             "title": "David's webdev porfolio",
-            "intro": "I like to make stuff for the web",
-            "summary": "in my free time (and sometimes for work). This is a portfolio of my favourite things I've made.",
+            "summary": "**I like to make stuff for the web** in my free time (and sometimes for work). This is a portfolio of my favourite things I've made.",
             "links": {
                 "github": "daikman",
                 "twitter": "researchingdave"
@@ -53,7 +52,8 @@
                 "code ⌨️": "https://github.com/daikman/daikman.github.io"
             },
             "mobileWarn": false,
-            "tags": ["dev"]
+            "tags": ["dev"],
+            "blog": "this-website.md"
         },
         {
             "name": "Quest Journal",

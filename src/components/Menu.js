@@ -1,18 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import {BrowserView, MobileView} from 'react-device-detect'
-import MenuItem from './MenuItem'
+import { Link } from 'react-router-dom'
 import Folder from './Folder'
 
 export default function Menu({ data }) {
-
-    // const mobile = data.map(d => {
-    //     return <div className='item menuItem four columns'>
-    //         <Link to={"/" + d.tag}>
-    //             <MenuItem data={d}/>
-    //         </Link>
-    //     </div>
-    // })
 
     const item = data.map((d, i)=> {
         return <div className='item folder four columns' id={"folder"+i}>

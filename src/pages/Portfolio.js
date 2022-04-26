@@ -1,9 +1,16 @@
+import React, { useState } from 'react'
 import ItemList from '../components/ItemList'
 import Header from "../components/Header"
-import Footer from '../components/Footer'
+import BlogEntry from "../components/BlogEntry"
 import "../css/App.css"
+import { Checkbox } from '@mantine/core'
+import { AiOutlineCheckCircle as NoBlogSwitch, AiFillCheckCircle as BlogSwitch } from 'react-icons/ai'
+import Navbar from '../components/Navbar'
 
 export default function Portfolio({ data, tag }) {
+
+  // const [blog, toggleBlog] = useState(false)
+
   const items = data.items.filter(d => {
     return d.tags.indexOf(tag) != -1
   })
@@ -16,7 +23,23 @@ export default function Portfolio({ data, tag }) {
     <Header data = {info[0]} home = {true}/>
     <br/>
     <ItemList data = {items} />
+
   </>   
+
+  // return <>
+  //   <Navbar />
+  //   <button onClick={() => toggleBlog(b => !b)} style={{border: "none"}}>
+  //     <h1><BlogSwitch /></h1>
+  //   </button>
+  //   <Header data = {info[0]} home = {true}/>
+  //   <br/>
+  //   {items.map(d => {
+  //     if (d.blog) return <>
+  //       <hr/>
+  //       <BlogEntry item={d}/>
+  //     </>
+  //   })}
+  // </>
 
 }
 

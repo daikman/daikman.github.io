@@ -1,19 +1,25 @@
 import React from 'react'
 import "../css/Item.css"
 import MobileWarn from './MobileWarn'
+import ReactMarkdown from 'react-markdown'
+import BlogEntry from './BlogEntry'
 
 export default function Item({ data }) {
-    let i = <>
-            <img src={require("../images/"+data.img)} />
-            <h2>{data.name}</h2>
-            <p>{data.desc}</p>
-            {createLinks(data.links)}
-            <MobileWarn warn={data?.mobileWarn}/>
-        </>
-    return i
+
+  let i = <div onClick={() => console.log("gello")} style={{cursor: "pointer"}}>
+          <img src={require("../images/"+data.img)} />
+          <ReactMarkdown>{"## "+data.name}</ReactMarkdown>
+          <ReactMarkdown>{data.desc}</ReactMarkdown>
+          {createLinks(data.links)}
+          <MobileWarn warn={data?.mobileWarn}/>
+      </div>
+
+  // if (data.blog) return <>{i}<BlogEntry item={data} /></>
+  return i
+
 }
 
-function createLinks(links) {
+export function createLinks(links) {
   const names = Object.keys(links)
   const hrefs = Object.values(links)
   

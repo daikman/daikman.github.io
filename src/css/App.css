@@ -35,3 +35,10 @@ p {
   font-size: larger;
 }
 
+.bar-item {
+  background-color: "pink";
+  width: "50%";
+  height: "100%";
+  padding: 0;
+  margin: 0;
+}
