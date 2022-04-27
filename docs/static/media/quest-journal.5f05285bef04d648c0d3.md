@@ -1,4 +1,3 @@
-# This website
 ### Making my own portfolio/blog website
 Before making this website, my knowledge of web development extended only to plain JavaScript and HTML. 
 So this was the project where I learned to use **React.js**, and where I continue to learn as I add new features to the site.
