@@ -6,10 +6,11 @@ import "../css/App.css"
 import { Checkbox } from '@mantine/core'
 import { AiOutlineCheckCircle as NoBlogSwitch, AiFillCheckCircle as BlogSwitch } from 'react-icons/ai'
 import Navbar from '../components/Navbar'
+import { useParams } from 'react-router-dom'
 
-export default function Portfolio({ data, tag }) {
+export default function Portfolio({ data }) {
 
-  // const [blog, toggleBlog] = useState(false)
+  const { tag } = useParams()
 
   const items = data.items.filter(d => {
     return d.tags.indexOf(tag) != -1
@@ -20,6 +21,7 @@ export default function Portfolio({ data, tag }) {
   })
 
   return <>
+  
     <Header data = {info[0]} home = {true}/>
     <br/>
     <ItemList data = {items} />

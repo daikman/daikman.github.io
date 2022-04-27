@@ -3,16 +3,17 @@ import "../css/Item.css"
 import MobileWarn from './MobileWarn'
 import ReactMarkdown from 'react-markdown'
 import BlogEntry from './BlogEntry'
+import { Link } from 'react-router-dom'
 
 export default function Item({ data }) {
 
-  let i = <div onClick={() => console.log("gello")} style={{cursor: "pointer"}}>
-          <img src={require("../images/"+data.img)} />
-          <ReactMarkdown>{"## "+data.name}</ReactMarkdown>
-          <ReactMarkdown>{data.desc}</ReactMarkdown>
-          {createLinks(data.links)}
-          <MobileWarn warn={data?.mobileWarn}/>
-      </div>
+  let i = <Link to={"/blog/" + data.id}><div style={{cursor: "pointer"}}>
+    <img src={require("../images/" + data.img)} />
+    <ReactMarkdown>{"## " + data.name}</ReactMarkdown>
+    <ReactMarkdown>{data.desc}</ReactMarkdown>
+    {createLinks(data.links)}
+    <MobileWarn warn={data?.mobileWarn}/>
+  </div></Link>
 
   // if (data.blog) return <>{i}<BlogEntry item={data} /></>
   return i
