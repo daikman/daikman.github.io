@@ -67,6 +67,18 @@
             "tags": ["dev"]
         },
         {
+            "id": "health-dep",
+            "name": "Health Shiny App",
+            "desc": "A responsive Shiny app with scroll events showing examples of health inequalities in Scotland.",
+            "img": "health-dep.png",
+            "links": {
+                "live demo 🌐": "https://daikman.shinyapps.io/health-deprivation/",
+                "code ⌨️": "https://github.com/daikman/health-inequalities/"
+            },
+            "mobileWarn": false,
+            "tags": ["data", "dev"]
+        },
+        {
             "name": "D3 Research Report",
             "desc": "Some research I did for my old job. I made an HTML report with interactive charts.",
             "img": "leader-report.PNG",
