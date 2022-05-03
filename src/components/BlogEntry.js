@@ -23,12 +23,18 @@ export default function BlogEntry({ data, item, complete }) {
   return (
     <>
       {seeMore(complete)}
-      <h1 id={id}>{item.name}</h1>
-      {createLinks(item.links)}
-      <img 
-        src={require("../images/"+item.img)} 
-        style={{height: "4em", width: "100%", objectFit: "none"}}
-      />
+      <div style={{position: "relative", padding: "1%"}}>
+        <h1 id={id} style={{color: "black"}}>{item.name}</h1>
+        {createLinks(item.links)}
+        
+        <img 
+          src={require("../images/"+item.img)} 
+          style={{width: "100%", objectFit: "none", height: "100%",
+          position: "absolute", left: 0, top: 0, 
+          zIndex: -1, opacity: 0.1}}
+        />
+      </div>
+      <br />
       <ReactMarkdown>
           {markdown}
       </ReactMarkdown>
