@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import { createLinks } from "./Item"
 import { useParams, Link } from 'react-router-dom';
 
-export default function BlogEntry({ data, item }) {
+export default function BlogContent({ data, item }) {
   const { id } = useParams()
 
   if (!item)
@@ -24,19 +24,19 @@ export default function BlogEntry({ data, item }) {
     <>
       <div style={{position: "relative", padding: "1%"}}>
         <p id={id} style={{color: "black"}}>{item.name}</p>
-        {/* {createLinks(item.links)} */}
+        {createLinks(item.links)}
         
-        {/* <img 
+        <img 
           src={require("../images/"+item.img)} 
           style={{width: "100%", objectFit: "none", height: "100%",
           position: "absolute", left: 0, top: 0, 
           zIndex: -1, opacity: 0.1}}
-        /> */}
+        />
       </div>
       <br />
-      {/* <ReactMarkdown>
+      <ReactMarkdown>
           {markdown}
-      </ReactMarkdown> */}
+      </ReactMarkdown>
     </>
   );
 }

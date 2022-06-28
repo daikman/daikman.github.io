@@ -3,9 +3,37 @@
     padding: 10%;
     max-width: 1000px;
     margin: auto;
-    /* font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif;
     font-family: sans-serif;
     color: rgb(42, 42, 42)
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 200, 200, 1);
+  display: grid !important;
+  grid-template-columns: 200px 1fr 1fr;
+  z-index: 100;
+}
+
+header div {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header div:hover {
+  background-color: rgba(235, 180, 180, 1);
+}
+
+#HomeNav a {
+  color: black;
 }
 
 ::selection {

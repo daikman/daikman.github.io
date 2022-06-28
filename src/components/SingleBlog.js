@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import BlogEntry from '../components/BlogEntry'
+import BlogContent from '../components/BlogContent'
 import { AppShell,
     Navbar,
     Header,
@@ -15,9 +15,7 @@ import { Link } from 'react-router-dom'
 import { BsCodeSquare as Dev } from 'react-icons/bs'
 
 export default function Blog({ data }) {
-    const blogs = data.items.map(d => {
-        if (d.blog) return <Link to={"/blog/" + d.id}><hr/><BlogEntry data={data} item={d} complete={true}/></Link>
-    })
+    const content = <BlogContent data={data}/>
 
     return (
       <AppShell
@@ -26,12 +24,12 @@ export default function Blog({ data }) {
         header={
           <Header height={100} p="md">
             <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-              <Link to={"/blog/"}><h1>Blog</h1></Link>
+                <Link to={"/blog/"}><h1>Blog</h1></Link>
             </div>
           </Header>
         }
       > 
-        {blogs}
+        {content}
       </AppShell>
     );
 }
