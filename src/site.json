@@ -4,8 +4,7 @@
             "tag": "dev",
             "img": "favicon.png",
             "title": "David's webdev porfolio",
-            "intro": "I like to make stuff for the web",
-            "summary": "in my free time (and sometimes for work). This is a portfolio of my favourite things I've made.",
+            "summary": "**I like to make stuff for the web** in my free time (and sometimes for work). This is a portfolio of my favourite things I've made.",
             "links": {
                 "github": "daikman",
                 "twitter": "researchingdave"
@@ -15,8 +14,7 @@
             "tag": "data",
             "img": "favicon.png",
             "title": "David's data porfolio",
-            "intro": "I'm a data scientist",
-            "summary": "and here a few data projects I've worked on in my spare time. (not a complete portfolio)",
+            "summary": "**I'm a data scientist** and here a few data projects I've worked on in my spare time. (not a complete portfolio)",
             "links": {
                 "github": "daikman",
                 "twitter": "researchingdave"
@@ -26,8 +24,7 @@
             "tag": "random",
             "img": "favicon.png",
             "title": "Fun lil projects",
-            "intro": "I've made a few things",
-            "summary": "that don't really fit in anywhere else.",
+            "summary": "**I've made a few things** that don't really fit in anywhere else.",
             "links": {
                 "github": "daikman",
                 "twitter": "researchingdave"
@@ -36,8 +33,7 @@
     ],
     "info": {
         "title": "Some things I've made",
-        "intro": "I'm David Aikman,",
-        "summary": "and I like to make stuff. This is a portfolio of my favourite things I've made.",
+        "summary": "**I'm David Aikman** and I like to make stuff. This is a portfolio of my favourite things I've made.",
         "links": {
             "github": "daikman",
             "twitter": "researchingdave"
@@ -45,6 +41,7 @@
     },
     "items": [
         {
+            "id": "this-website",
             "name": "This website",
             "desc": "Do you like it? I made it with React.js and Skeleton CSS.",
             "img": "favicon.png",
@@ -53,9 +50,11 @@
                 "code ⌨️": "https://github.com/daikman/daikman.github.io"
             },
             "mobileWarn": false,
-            "tags": ["dev"]
+            "tags": ["dev"],
+            "blog": true
         },
         {
+            "id": "quest-journal",
             "name": "Quest Journal",
             "desc": "This is a task manager app in the style of a video game quest menu. Plain js with a Node back-end.",
             "img": "quest-journal.PNG",
@@ -64,13 +63,14 @@
                 "code ⌨️": "https://github.com/daikman/quest-journal/"
             },
             "mobileWarn": false,
-            "tags": ["dev"]
+            "tags": ["dev"],
+            "blog": true
         },
         {
             "id": "health-dep",
             "name": "Health Shiny App",
             "desc": "A responsive Shiny app with scroll events showing examples of health inequalities in Scotland.",
-            "img": "health-dep.png",
+            "img": "health-dep.PNG",
             "links": {
                 "live demo 🌐": "https://daikman.shinyapps.io/health-deprivation/",
                 "code ⌨️": "https://github.com/daikman/health-inequalities/"
@@ -79,6 +79,7 @@
             "tags": ["data", "dev"]
         },
         {
+            "id": "d3-report",
             "name": "D3 Research Report",
             "desc": "Some research I did for my old job. I made an HTML report with interactive charts.",
             "img": "leader-report.PNG",
@@ -90,6 +91,7 @@
             "tags": ["dev", "data"]
         },
         {
+            "id": "phsopendata",
             "name": "{phsopendata}",
             "desc": "An R package to interface with Public Health Scotland's open data API. Made collaboratively.",
             "img": "phsopendata.PNG",
@@ -100,6 +102,7 @@
             "tags": ["data"]
         },
         {
+            "id": "game-wip",
             "name": "Game WIP",
             "desc": "A game engine I'm developing to make point and click adventure games.",
             "img": "game.PNG",
@@ -111,6 +114,7 @@
             "tags": ["random", "game-dev"]
         },
         {
+            "id": "keyboard",
             "name": "Keyboard",
             "desc": "This is a keyboard you can play with your computer keyboard. It's very simple (so far).",
             "img": "keyboard.PNG",
@@ -122,6 +126,7 @@
             "tags": ["random"]
         },
         {
+            "id": "mosaic-morph",
             "name": "Mosaic Morph",
             "desc": "This is a tool that takes one image and splits it into segments to draw a 'mosaic' of another image.",
             "img": "mosaic.png",
@@ -133,6 +138,7 @@
             "tags": ["random"]
         },
         {
+            "id": "text-art",
             "name": "Text Art",
             "desc": "This is a tool that takes some text and draws an image with that text.",
             "img": "text-art.png",
