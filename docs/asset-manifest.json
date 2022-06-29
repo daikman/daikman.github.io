@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.422efcd4.css",
-    "main.js": "./static/js/main.a1151103.js",
+    "main.css": "./static/css/main.044b060d.css",
+    "main.js": "./static/js/main.79057bc9.js",
     "static/js/495.c316f039.chunk.js": "./static/js/495.c316f039.chunk.js",
     "static/js/763.e6188f53.chunk.js": "./static/js/763.e6188f53.chunk.js",
     "static/media/text-art.png": "./static/media/text-art.78eb3c5be9fe349386bd.png",
@@ -16,14 +16,15 @@
     "static/media/phsopendata.PNG": "./static/media/phsopendata.4f56228259fd029915f9.PNG",
     "static/media/keyboard.PNG": "./static/media/keyboard.2ae74c58eba82667791f.PNG",
     "static/media/data.PNG": "./static/media/data.94ba7ef49d26ec56e53f.PNG",
+    "static/media/health-dep.PNG": "./static/media/health-dep.54868e9386cdf41dee48.PNG",
     "index.html": "./index.html",
     "static/media/quest-journal.md": "./static/media/quest-journal.5f05285bef04d648c0d3.md",
     "static/media/this-website.md": "./static/media/this-website.5f05285bef04d648c0d3.md",
-    "main.422efcd4.css.map": "./static/css/main.422efcd4.css.map",
-    "main.a1151103.js.map": "./static/js/main.a1151103.js.map"
+    "main.044b060d.css.map": "./static/css/main.044b060d.css.map",
+    "main.79057bc9.js.map": "./static/js/main.79057bc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.422efcd4.css",
-    "static/js/main.a1151103.js"
+    "static/css/main.044b060d.css",
+    "static/js/main.79057bc9.js"
   ]
 }
