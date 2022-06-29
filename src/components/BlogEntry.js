@@ -15,7 +15,10 @@ export default function BlogEntry({ data, item }) {
     import("../md/"+item.id+".md").then((res) => {
         fetch(res.default)
         .then((res) => res.text())
-        .then((text) => setMarkdown(text));
+        .then((text) => {
+          setMarkdown(text)
+          if (item.id == id) document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "center"})
+        });
     })
       
   }, []);

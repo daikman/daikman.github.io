@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
+import { useParams } from 'react-router-dom'
 import BlogEntry from '../components/BlogEntry'
 import { AppShell,
     Navbar,
@@ -15,6 +16,10 @@ import { Link } from 'react-router-dom'
 import { BsCodeSquare as Dev } from 'react-icons/bs'
 
 export default function Blog({ data }) {
+
+    let { id } = useParams()
+    if (!id) id = ''
+
     const blogs = data.items.map(d => {
         if (d.blog) return <Link to={"/blog/" + d.id}><hr/><BlogEntry data={data} item={d} complete={true}/></Link>
     })
@@ -31,7 +36,7 @@ export default function Blog({ data }) {
           </Header>
         }
       > 
-        {blogs}
+        <div className='blogs'>{blogs}</div>
       </AppShell>
     );
 }

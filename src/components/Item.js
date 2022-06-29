@@ -7,30 +7,35 @@ import { Link } from 'react-router-dom'
 
 export default function Item({ data }) {
 
-  let i = <Link to={"/blog/" + data.id}><div style={{cursor: "pointer"}}>
+  let i = <div>
     <img src={require("../images/" + data.img)} />
     <ReactMarkdown>{"## " + data.name}</ReactMarkdown>
     <ReactMarkdown>{data.desc}</ReactMarkdown>
-    {createLinks(data.links)}
+    {createLinks(data)}
     <MobileWarn warn={data?.mobileWarn}/>
-  </div></Link>
+  </div>
 
   // if (data.blog) return <>{i}<BlogEntry item={data} /></>
   return i
 
 }
 
-export function createLinks(links) {
+export function createLinks(data) {
+  let links = data.links
+  if (data.blog) {
+    links["📖 blog"] = "/#/blog/" + data.id
+  }
+
   const names = Object.keys(links)
   const hrefs = Object.values(links)
   
   const linkComp = names.map((d, i) => {
-    const a = <a href={hrefs[i]} target="_blank">
+    const finalLink = !names[i + 1]
+    const a = <a href={hrefs[i]} target={["_blank", ""][+finalLink]}>
       {d}
     </a>
-    
     // if the next link exists, add some spacing between them
-    if (!names[i + 1]) return a
+    if (finalLink) return a
     return <>{a}&nbsp;|&nbsp;</>
 
   })

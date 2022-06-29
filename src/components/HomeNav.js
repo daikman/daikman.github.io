@@ -8,7 +8,7 @@ export default function HomeNav() {
       
       <Link to={"/portfolio"}><div style={{cursor: "pointer"}}>Portfolio</div></Link>
       <div style={{marginBottom: "5px", color: "grey"}}>|</div>
-      <Link to={"/blog"}><div style={{cursor: "pointer"}}>Blog</div></Link>
+      <a href='https://www.daikman.com'><div style={{cursor: "pointer"}}>Blog</div></a>
 
     </div>
   </div>
