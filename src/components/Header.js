@@ -17,6 +17,6 @@ export default function Header({ data, home }) {
 }
 
 function homeLink(home) {
-  if (home) return <Link to="/"><Back /></Link>
-  return <Link to="/"><Closed /></Link>
+  if (home) return <Link to="/portfolio"><Back /></Link>
+  return <Closed />
 }
