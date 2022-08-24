@@ -68,7 +68,7 @@
             "id": "health-dep",
             "name": "Health Shiny App",
             "desc": "A responsive Shiny app with scroll events showing examples of health inequalities in Scotland.",
-            "img": "health-dep.PNG",
+            "img": "health-dep.png",
             "links": {
                 "live demo 🌐": "https://daikman.shinyapps.io/health-deprivation/",
                 "code ⌨️": "https://github.com/daikman/health-inequalities/"
