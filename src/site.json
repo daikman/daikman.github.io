@@ -50,21 +50,19 @@
                 "code ⌨️": "https://github.com/daikman/daikman.github.io"
             },
             "mobileWarn": false,
-            "tags": ["dev"],
-            "blog": true
+            "tags": ["dev"]
         },
         {
             "id": "quest-journal",
             "name": "Quest Journal",
-            "desc": "This is a task manager app in the style of a video game quest menu. Plain js with a Node back-end.",
+            "desc": "This is a task manager app in the style of a video game quest menu. It's pre-rendered handlebars.js with a Node back-end.",
             "img": "quest-journal.PNG",
             "links": {
                 "live demo 🌐": "https://daikman.github.io/quest-journal/",
                 "code ⌨️": "https://github.com/daikman/quest-journal/"
             },
             "mobileWarn": false,
-            "tags": ["dev"],
-            "blog": true
+            "tags": ["dev"]
         },
         {
             "id": "health-dep",
