@@ -67,7 +67,7 @@
         {
             "id": "health-dep",
             "name": "Health Shiny App",
-            "desc": "A responsive Shiny app with scroll events showing examples of health inequalities in Scotland.",
+            "desc": "A responsive R Shiny app with scroll events showing examples of health inequalities in Scotland.",
             "img": "health-dep.png",
             "links": {
                 "live demo 🌐": "https://daikman.shinyapps.io/health-deprivation/",
@@ -75,6 +75,17 @@
             },
             "mobileWarn": false,
             "tags": ["data", "dev"]
+        },
+        {
+            "id": "fun-stats",
+            "name": "fun-stats",
+            "desc": "JavaScript library for fundamental statistics. It's published to NPM.",
+            "img": "dev.PNG",
+            "links": {
+                "code ⌨️": "https://github.com/daikman/fun-stats/"
+            },
+            "mobileWarn": false,
+            "tags": ["dev", "data"]
         },
         {
             "id": "d3-report",
