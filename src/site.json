@@ -82,7 +82,8 @@
             "desc": "JavaScript library for fundamental statistics. It's published to NPM.",
             "img": "dev.PNG",
             "links": {
-                "code ⌨️": "https://github.com/daikman/fun-stats/"
+                "code ⌨️": "https://github.com/daikman/fun-stats/",
+                "docs 📖": "https://daikman.github.io/fun-stats/"
             },
             "mobileWarn": false,
             "tags": ["dev", "data"]
