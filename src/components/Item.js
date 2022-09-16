@@ -32,15 +32,16 @@ export function createLinks(data) {
   const linkComp = names.map((d, i) => {
     const finalLink = !names[i + 1]
     const a = <a href={hrefs[i]} target={["_blank", ""][+finalLink]}>
-      {d}
+      <span>{d}</span>
     </a>
-    // if the next link exists, add some spacing between them
-    if (finalLink) return a
-    return <>{a}&nbsp;|&nbsp;</>
+    // // if the next link exists, add some spacing between them
+    // if (finalLink) return a
+    // return <>{a}&nbsp;|&nbsp;</>
+    return a
 
   })
 
   return <div className="links">
-    <p>{linkComp}</p>
+    <p style={{"display": "grid", "grid-template-columns": "50% 50%"}}>{linkComp}</p>
   </div>
 }

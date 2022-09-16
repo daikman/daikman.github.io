@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f8034791.css",
-    "main.js": "./static/js/main.bb433c37.js",
+    "main.css": "./static/css/main.46db9f16.css",
+    "main.js": "./static/js/main.e7bb346f.js",
     "static/js/495.c316f039.chunk.js": "./static/js/495.c316f039.chunk.js",
     "static/js/763.e6188f53.chunk.js": "./static/js/763.e6188f53.chunk.js",
     "static/media/text-art.png": "./static/media/text-art.78eb3c5be9fe349386bd.png",
@@ -20,11 +20,11 @@
     "index.html": "./index.html",
     "static/media/quest-journal.md": "./static/media/quest-journal.5f05285bef04d648c0d3.md",
     "static/media/this-website.md": "./static/media/this-website.5f05285bef04d648c0d3.md",
-    "main.f8034791.css.map": "./static/css/main.f8034791.css.map",
-    "main.bb433c37.js.map": "./static/js/main.bb433c37.js.map"
+    "main.46db9f16.css.map": "./static/css/main.46db9f16.css.map",
+    "main.e7bb346f.js.map": "./static/js/main.e7bb346f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8034791.css",
-    "static/js/main.bb433c37.js"
+    "static/css/main.46db9f16.css",
+    "static/js/main.e7bb346f.js"
   ]
 }

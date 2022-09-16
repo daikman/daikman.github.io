@@ -4,6 +4,7 @@
 
 .item p {
     margin-left: 16px;
+    margin-right: 16px;
 }
 
 .item {
@@ -41,8 +42,8 @@
 }
 
 .item:hover {
-    background-color: transparent;
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: transparent; */
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .item img {
@@ -72,9 +73,14 @@
     }
 }
 
-.links p {
+.links {
+    width: 70%;
+    margin: auto;
+}
+
+.links span {
     background-color: white;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5%;
+    font-weight: bold;
 }
