@@ -13,7 +13,7 @@ import SingleBlog from "./SingleBlog"
 
 function App() {
 
-  return <>
+  return <main>
     <Router>
       <Routes>
         <Route path="/" element={<HomeNav />}/>
@@ -27,7 +27,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
-  </>
+  </main>
   
 
 }

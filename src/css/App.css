@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,300,600');
 #root {
-    padding: 10%;
-    max-width: 1000px;
-    margin: auto;
     font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif;
     font-family: sans-serif;
-    color: rgb(42, 42, 42)
+    color: rgb(42, 42, 42);
+}
+
+main {
+  padding: 10%;
+  max-width: 1000px;
+  width: 80%;
+  margin: auto;
 }
 
 header {
