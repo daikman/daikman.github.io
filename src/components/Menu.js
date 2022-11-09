@@ -1,6 +1,3 @@
-// import { useSat} from 'react'
-import { Link } from 'react-router-dom'
-import Folder from './Folder'
 import MenuItem from './MenuItem'
 
 export default function Menu({ data }) {
