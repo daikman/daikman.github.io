@@ -20,9 +20,6 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeNav />}/>
           <Route path="/portfolio" element={<Home data={data}/>} />
-          {/* <Route path="/dev" element={<Portfolio data={data} tag={"dev"}/>} />
-          <Route path="/data" element={<Portfolio data={data} tag={"data"}/>} />
-          <Route path="/random" element={<Portfolio data={data} tag={"random"}/>} /> */}
           <Route path="/portfolio/:tag" element={<Portfolio data={data} />} />
           <Route path="/blog" element={<Blog data={data} />}/>
           <Route path="/blog/:id" element={<SingleBlog data={data} />}/>
@@ -33,7 +30,6 @@ function App() {
     <Footer />
   </>
   
-
 }
 
 export default App; 
