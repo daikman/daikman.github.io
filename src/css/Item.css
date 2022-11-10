@@ -37,7 +37,8 @@
     font-size: inherit;
 }
 
-.folder text {
+.folder p {
+    margin: 0;
     position: absolute;
     font-size: larger;
     bottom: 40%;

@@ -8,6 +8,7 @@ export default function MenuItem({ d, i }) {
   const hover = useRef(true)
   const angle = useRef(0)
   const height = useRef(-0.1)
+  const init = useRef(true)
   const [time, setTime] = useState(Date.now())
 
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function MenuItem({ d, i }) {
     <Folder id={"folder"+i} a={angle.current} h={height.current} hover={hover}/>
     <Link to={"/portfolio/"+d.tag}>
         <button>
-            <text>{d.tag}</text>
+            <p>{d.tag}</p>
         </button>  
     </Link>         
   </div>

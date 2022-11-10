@@ -14,7 +14,7 @@ let cnv, grid = 54;
 const emojis = ["📁", "👩‍💻", "⌨️", "💻", "🖥️", "📈", "📉"]
 
 function setup() {
-    cnv = createCanvas(windowWidth, windowHeight)
+    cnv = createCanvas(windowWidth, windowHeight + 500)
     cnv.parent("home-background")
     cnv.textSize(38)
     emojiPage()
@@ -22,7 +22,7 @@ function setup() {
 
 function windowResized() {
     clear()
-    resizeCanvas(windowWidth, windowHeight)
+    resizeCanvas(windowWidth, windowHeight + 500)
     emojiPage()
 }
 

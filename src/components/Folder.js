@@ -79,7 +79,7 @@ export function animation(angle, height) {
     let angleDiff = 0
 
     if (angle < 6.282) angleDiff = 0.1
-    if (height < 0) heightDiff = -0.2
+    if (height < 0) heightDiff = -0.1
     if (angle > 5) heightDiff = 0.5
     if (height >= 0) {
       heightDiff = 0; 
