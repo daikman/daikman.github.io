@@ -66,7 +66,7 @@
         },
         {
             "id": "health-dep",
-            "name": "Health Shiny App",
+            "name": "Health Inequalities",
             "desc": "A responsive R Shiny app with scroll events showing examples of health inequalities in Scotland.",
             "img": "health-dep.png",
             "links": {
