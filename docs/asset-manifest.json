@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c19cf27.css",
-    "main.js": "/static/js/main.0a85681c.js",
+    "main.js": "/static/js/main.2ad338cf.js",
     "static/js/495.c316f039.chunk.js": "/static/js/495.c316f039.chunk.js",
     "static/js/763.e6188f53.chunk.js": "/static/js/763.e6188f53.chunk.js",
     "static/media/text-art.png": "/static/media/text-art.78eb3c5be9fe349386bd.png",
@@ -21,10 +21,10 @@
     "static/media/quest-journal.md": "/static/media/quest-journal.5f05285bef04d648c0d3.md",
     "static/media/this-website.md": "/static/media/this-website.5f05285bef04d648c0d3.md",
     "main.0c19cf27.css.map": "/static/css/main.0c19cf27.css.map",
-    "main.0a85681c.js.map": "/static/js/main.0a85681c.js.map"
+    "main.2ad338cf.js.map": "/static/js/main.2ad338cf.js.map"
   },
   "entrypoints": [
     "static/css/main.0c19cf27.css",
-    "static/js/main.0a85681c.js"
+    "static/js/main.2ad338cf.js"
   ]
 }
