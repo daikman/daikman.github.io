@@ -3,6 +3,7 @@
     font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif;
     font-family: sans-serif;
     color: rgb(42, 42, 42);
+    --header-height: 100px;
 }
 
 main {
@@ -17,7 +18,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100px;
+  height: var(--header-height);
   width: 100%;
   background-color: rgba(255, 200, 200, 1);
   display: grid !important;
@@ -35,6 +36,15 @@ header div {
 
 header div:hover {
   background-color: rgba(235, 180, 180, 1);
+}
+
+header h1 {
+  color: black;
+}
+
+aside {
+  position: fixed;
+  top: var(--header-height);
 }
 
 #HomeNav a {

@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c19cf27.css",
-    "main.js": "/static/js/main.2ad338cf.js",
-    "static/js/495.c316f039.chunk.js": "/static/js/495.c316f039.chunk.js",
-    "static/js/763.e6188f53.chunk.js": "/static/js/763.e6188f53.chunk.js",
+    "main.css": "/static/css/main.5ef111e5.css",
+    "main.js": "/static/js/main.f92ab43f.js",
+    "static/js/452.70b51a33.chunk.js": "/static/js/452.70b51a33.chunk.js",
     "static/media/text-art.png": "/static/media/text-art.78eb3c5be9fe349386bd.png",
     "static/media/mosaic.png": "/static/media/mosaic.1421208766d6d6f51942.png",
     "static/media/game.PNG": "/static/media/game.632a2785b5b00d6dc2a1.PNG",
@@ -17,14 +16,13 @@
     "static/media/keyboard.PNG": "/static/media/keyboard.2ae74c58eba82667791f.PNG",
     "static/media/data.PNG": "/static/media/data.94ba7ef49d26ec56e53f.PNG",
     "static/media/health-dep.png": "/static/media/health-dep.54868e9386cdf41dee48.png",
+    "static/media/fun-stats.md": "/static/media/fun-stats.09e81410efef79e87c64.md",
     "index.html": "/index.html",
-    "static/media/quest-journal.md": "/static/media/quest-journal.5f05285bef04d648c0d3.md",
-    "static/media/this-website.md": "/static/media/this-website.5f05285bef04d648c0d3.md",
-    "main.0c19cf27.css.map": "/static/css/main.0c19cf27.css.map",
-    "main.2ad338cf.js.map": "/static/js/main.2ad338cf.js.map"
+    "main.5ef111e5.css.map": "/static/css/main.5ef111e5.css.map",
+    "main.f92ab43f.js.map": "/static/js/main.f92ab43f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c19cf27.css",
-    "static/js/main.2ad338cf.js"
+    "static/css/main.5ef111e5.css",
+    "static/js/main.f92ab43f.js"
   ]
 }

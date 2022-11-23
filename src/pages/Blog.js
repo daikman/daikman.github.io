@@ -1,42 +1,68 @@
-import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import BlogEntry from '../components/BlogEntry'
-import { AppShell,
-    Navbar,
-    Header,
-    Footer,
-    Aside,
-    Text,
-    MediaQuery,
-    Burger,
-    useMantineTheme 
-} from '@mantine/core'
-import "../css/App.css"
-import { Link } from 'react-router-dom'
-import { BsCodeSquare as Dev } from 'react-icons/bs'
+import { Link } from "react-router-dom"
+import NavHeader from '../components/NavHeader'
+import {useState, useEffect} from "react"
+import ReactMarkdown from 'react-markdown'
 
 export default function Blog({ data }) {
 
-    let { id } = useParams()
-    if (!id) id = ''
+  const { post } = useParams()
 
-    const blogs = data.items.map(d => {
-        if (d.blog) return <Link to={"/blog/" + d.id}><hr/><BlogEntry data={data} item={d} complete={true}/></Link>
-    })
+  let postData;
+  if (post) {
+    postData = data.filter(d => d.id === post)[0]
+  } else {
+    postData = data[0]
+  }
 
-    return (
-      <AppShell
-        navbarOffsetBreakpoint="sm"
-        fixed
-        header={
-          <Header height={100} p="md">
-            <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-              <Link to={"/blog/"}><h1>Blog</h1></Link>
-            </div>
-          </Header>
-        }
-      > 
-        <div className='blogs'>{blogs}</div>
-      </AppShell>
-    );
+  const [markdown, setMarkdown] = useState("Loading...")
+  const [markup, setMarkup] = useState("Loading...")
+  const [HTMLSrc, setHTMLSrc] = useState("Loading...")
+
+  useEffect(() => {
+    import('../posts/fun-stats.md')
+      .then(res =>{
+        console.log(res.default)
+        setHTMLSrc(res.default)
+        fetch(res.default)
+          .then(response => response.text())
+          .then(response => {
+            // setMarkup(response)
+            setMarkdown(response)
+          })
+          .catch(err => console.log(err))
+      })
+  }, [])
+
+  return <>
+    <NavHeader />
+    <aside>
+      <SideNav entries={data} />
+    </aside>
+    <main>
+      <Post post={postData} md={markdown} />
+    </main>
+  </>
+
+}
+
+function SideNav({ entries }) {
+  const list = entries.map((d, i) => {
+    return <li key={i}>
+      <Link to={"/blog/" + d.id}>{d.title}</Link>
+    </li>
+  }) 
+
+  return <ul>{list}</ul>
+}
+
+function Post({ post, md }) {
+  // const readPath = require("./posts/"+post.id+".md");
+  return <div>
+    <h2>{post.title}</h2>
+    {/* <div
+      dangerouslySetInnerHTML={{__html: html}}
+    /> */}
+    <ReactMarkdown>{md}</ReactMarkdown>
+  </div>
 }

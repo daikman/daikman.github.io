@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[495],{3495:function(e,o,t){e.exports=t.p+"static/media/quest-journal.5f05285bef04d648c0d3.md"}}]);

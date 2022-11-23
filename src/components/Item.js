@@ -2,8 +2,6 @@ import React from 'react'
 import "../css/Item.css"
 import MobileWarn from './MobileWarn'
 import ReactMarkdown from 'react-markdown'
-import BlogEntry from './BlogEntry'
-import { Link } from 'react-router-dom'
 
 export default function Item({ data }) {
 
@@ -15,7 +13,6 @@ export default function Item({ data }) {
     <MobileWarn warn={data?.mobileWarn}/>
   </div>
 
-  // if (data.blog) return <>{i}<BlogEntry item={data} /></>
   return i
 
 }

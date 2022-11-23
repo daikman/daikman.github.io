@@ -5,11 +5,11 @@ import "../css/App.css"
 
 export default function Home({ data }) {
 
-  return <>
+  return <main>
     <Header data = {data.info}/>
     <br/>
     <Menu data = {data.menu} />
-  </>   
+  </main>   
 
 }
 

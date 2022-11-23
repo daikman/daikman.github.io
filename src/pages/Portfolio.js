@@ -1,11 +1,6 @@
-import React, { useState } from 'react'
 import ItemList from '../components/ItemList'
 import Header from "../components/Header"
-import BlogEntry from "../components/BlogEntry"
 import "../css/App.css"
-import { Checkbox } from '@mantine/core'
-import { AiOutlineCheckCircle as NoBlogSwitch, AiFillCheckCircle as BlogSwitch } from 'react-icons/ai'
-import Navbar from '../components/Navbar'
 import { useParams } from 'react-router-dom'
 
 export default function Portfolio({ data }) {
@@ -20,13 +15,13 @@ export default function Portfolio({ data }) {
     return d.tag == tag
   })
 
-  return <>
+  return <main>
   
     <Header data = {info[0]} home = {true}/>
     <br/>
     <ItemList data = {items} />
 
-  </>   
+  </main>   
 
   // return <>
   //   <Navbar />
